@@ -6,10 +6,11 @@ body {
     margin: 0;
     /* TODO use the Google Font 'Bitter' */
     font-size: 100%;
+    font-family: Bitter;
 }
 
 div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
-    font-family: bitter;
+    font-family: Bitter;
     /* TODO because we are using Foundation, we have to override Foundation's default font family. Use the Google Font 'Bitter' here. */
 }
 
@@ -27,11 +28,14 @@ header {}
 header h1 {
     /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
     /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+    font-size: 5.5em;
+    text-shadow: 34;
 }
 
 header .tagline h4 {
     /* TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
     /* TODO add the same text-shadow */
+    font-style: italic;
 }
 
 header .tagline {
@@ -62,11 +66,17 @@ section {
 
 .address {
     /* TODO give this section a background of #221c12 and a color of #fffdf0. make the text centered */
+    background: #221c12 ;
+    color: #fffdf0;
+
+    text-align: center;
+
 }
 
 .location,
 .hours {
     /* TODO give these two divs some padding so that they line up with the map */
+padding: 5px;
 }
 
 .hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ }
