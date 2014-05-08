@@ -9,11 +9,13 @@ body {
 }
 
 div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
+    font-family: bitter;
     /* TODO because we are using Foundation, we have to override Foundation's default font family. Use the Google Font 'Bitter' here. */
 }
 
 h1, h2, h3, h4, h5, h6 {
     /* TODO make the font color of all our headers #fffdf0 */
+    color:  #fffdf0 ;
 }
 
 /* ---------------------------------------------- */
